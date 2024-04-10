@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- home section starts -->
+    <section class="home" id="loginForm">
+
+        <div class="image">
+            <img src="./bailey-zindel-NRQV-hBF10M-unsplash.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <p class="right-text">Already a member? <span>Sign In</span></p>
+            <form class="form">
+                <h1>Sign up to Dribble</h1>
+
+                <div class="names">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="your name" class="box" required>
+                </div>
+
+                <div class="names">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="username" class="box" required>
+                </div>
+
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" id="loginEmail" class="box" placeholder="Email" required>
+                </div>
+
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" id="loginPassword" class="box" placeholder="6+ characters" required>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" class="checkbox">
+                    <div class="txt">
+                        <label> Creating an account means you're okay with our <a href="#">Terms of
+                                Service. Privacy Policy,</a> and our default <a href="#">Notification
+                                Settings.</a></label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn" id="submit-btn">Create Account</button>
+
+                <p class="policy">This site is protected by reCAPTCHA and the Google
+                    <a href="#"> Privacy Policy </a> and <a href="#">Terms of Service </a> apply.
+                </p>
+            </form>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- image section starts -->
+
+    <div id="survey" class="upload">
+        <form id="surveyForm">
+            <h1>Welcome! Let's create your profile</h1>
+            <p>Let others get to know you better! You can do these later</p>
+            <p class="avatar">Add an avatar</p>
+
+            <div class="imageInputs">
+                <img src="./avatar2.png" />
+                <input type="file" name="images">
+            </div>
+
+
+            <div>
+                <label for="location" class="avatar">Add your location</label>
+                <input type="text" id="location" name="location" placeholder="Enter a location">
+            </div>
+
+            <button type="submit" class="btn" >Finish</button>
+        </form>
+    </div>
+
+    <!-- image section ends -->
+
+    <div class="testimonial-container"  >
+        <div class="testimonial-content" id="testimonial">
+            <h2 class="testimonial-title">
+                What brings you to Dribble?
+            </h2>
+            <p>Select the options that best describe you. Don't worry,you csn explore other options later.</p>
+            <div class="testimonial-grid" >
+                <!-- card 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./avatar1.png" />
+                    </div>
+                    <div class="testimonial-details">
+                        <h3 class="testimonial-name">
+                            I'm a designer looking to share my work
+                        </h3>
+                        <p class="testimonial-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae!
+                        </p>
+                        <input type="radio" class="radio">
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./avatar2.png" />
+                    </div>
+                    <div class="testimonial-details">
+                        <h3 class="testimonial-name">
+                            I'm looking tto hire a designer
+                        </h3>
+                        <p class="testimonial-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, reprehenderit. Lorem,
+                            ipsum.
+                        </p>
+                        <input type="radio" class="radio">
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./avatar3.png" />
+                    </div>
+                    <div class="testimonial-details">
+                        <h3 class="testimonial-name">
+                            I'm looking for design inspiration
+                        </h3>
+                        <p class="testimonial-desc">
+                            With over 7 million shots from a vast community of designers, Dribble is the leading source
+                            for design inspiration.
+                        </p>
+                        <input type="radio" class="radio">
+                    </div>
+                </div>
+            </div>
+
+            <p class="testimonial-name">
+                Anything else?You can select multiple
+            </p>
+            
+            <button type="submit" class="btn" id="submit">Finish</button>
+
+                <p class="section-description">
+                    or Press RETURN
+                </p>
+        </div>
+    </div> 
+    
+    <div>
+
+        <div class="last-page">
+            <div class="header">
+
+                <header class="header-content">
+    
+                    <a href="#logo" class="logo">
+                        <img src="./StudySyn.svg" alt="logoImage" class="logo-icon" />
+                        <span class="logo-text">dribble</span>
+                    </a>
+    
+                    <nav class="nav">
+                        <a href="#home" class="nav-link">Inspiration</a>
+                        <a href="#features" class="nav-link">Find Work</a>
+                        <a href="#pricing" class="nav-link">Learn Design</a>
+                        <a href="#blog" class="nav-link">Go Pro</a>
+                        <a href="#about" class="nav-link">Hire Designers</a>
+                    </nav>
+    
+                    <a href="#contact" class="contact-button">
+                        upload
+                    </a>
+    
+                </header>
+    
+            </div>
+    
+            <div class="news-info">
+                <h2 class="news-title">Please verify your email...</h2>
+    
+                <p class="news-desc">Please verify your email address. We've sent a confirmation email to:
+                    <b> account@refero.design </b>
+                </p>
+    
+                <p class="news-desc"> Click the confirmation link in that email to begin using Dribble.</p>
+    
+                <p class="news-desc">Didn't receive the email? Check your folder, it may have been caught by a
+                    filter. If
+                    you still don't see it, you can <span>resend the confirmation email.</span>
+                </p>
+    
+                <p class="news-desc">Wrong email address? Change it.</p>
+    
+            </div>
+    
+    
+            <div class="footer-container">
+                <footer class="footer">
+    
+                    <div class="footer-top">
+                        <div class="comp-logo">
+                            <a class="logo-link" href="#">
+                                <img class="logo-svg" src="./StudySyn.svg" />
+                                Dribble
+                            </a>
+                        </div>
+                        <p class="filler-text">Dribble is the world's leading community for cretives to share, grow, and get
+                            hired</p>
+                        <div class="social">
+                            <a class="social-link" href="#">
+                                <img src="./instagram.svg" class="social-icon" />
+                            </a>
+                            <a class="social-link">
+                                <img src="./linkedin.svg" class="social-icon" />
+                            </a>
+                            <a class="social-link">
+                                <img src="./Microsoft.svg" class="social-icon" />
+                            </a>
+                            <a class="social-link">
+                                <img src="./twitter.svg" class="social-icon" />
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer-grid">
+                        <!-- column 1 -->
+                        <div class="footer-grid-column">
+                            <div class="footer-grid-heading">
+                                for designer
+                            </div>
+                            <ul class="footer-links-list">
+                                <li>
+                                    <a href="#overview" class="footer-link">go pro!</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">explore design work</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">design blog</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">overtime podcast</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">playoffs</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">weekly warm-up</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">refer a friend</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">code of conduct</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- column 2 -->
+                        <div class="footer-grid-column">
+                            <div class="footer-grid-heading">
+                                hire designers
+                            </div>
+                            <ul class="footer-links-list">
+                                <li>
+                                    <a href="#overview" class="footer-link"> post a job openings </a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">post a freelance project</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">search for designers</a>
+                                </li>
+                            </ul>
+    
+                            <div class="sub-text">
+                                <div class="footer-grid-heading">
+                                    brands
+                                </div>
+                                <ul class="footer-links-list">
+                                    <li>
+                                        <a href="#overview" class="footer-link"> advertise with us </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <!-- column 3 -->
+                        <div class="footer-grid-column">
+                            <div class="footer-grid-heading">
+                                company
+                            </div>
+                            <ul class="footer-links-list">
+                                <li>
+                                    <a href="#overview" class="footer-link">about</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">careers</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">support</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">media kit</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">testimonials</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">api</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">terms of service</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">privacy policy </a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">cookie policy</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <!-- column 4 -->
+                        <div class="footer-grid-column">
+                            <div class="footer-grid-heading">
+                                directories
+                            </div>
+                            <ul class="footer-links-list">
+                                <li>
+                                    <a href="#overview" class="footer-link">design jobs</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">designers for hire</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">freelance designers for hire</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">tags</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">places</a>
+                                </li>
+                            </ul>
+    
+                            <div class="sub-text">
+                                <div class="footer-grid-heading">
+                                    design assests
+                                </div>
+                                <ul class="footer-links-list">
+                                    <li>
+                                        <a href="#overview" class="footer-link">dribble marketplace </a>
+                                    </li>
+                                    <li>
+                                        <a href="#overview" class="footer-link">creative market</a>
+                                    </li>
+                                    <li>
+                                        <a href="#overview" class="footer-link">fontspring</a>
+                                    </li>
+                                    <li>
+                                        <a href="#overview" class="footer-link"> font squirrel</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+    
+    
+                        <!-- column 5 -->
+    
+                        <div class="footer-grid-column">
+                            <div class="footer-grid-heading">
+                                design resources
+                            </div>
+                            <ul class="footer-links-list">
+                                <li>
+                                    <a href="#overview" class="footer-link">freelancing</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">design hiring</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">design portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">design education </a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">creative processes</a>
+                                </li>
+                                <li>
+                                    <a href="#overview" class="footer-link">design industry trends</a>
+                                </li>
+                            </ul>
+                        </div>
+                </footer>
+                <div class="footer-copyright">
+                    <p>&copy; 2023. All Rights Reserved.</p>
+                    <p>20,501853 <span>shots dribbled</span> <i class="fas fa-basketball-ball"></i> </p>
+    
+                </div>
+            </div>
+    
+        </div>
+        </div>
+       
+
+<script src="./script.js"></script>
+</body>
+
+</html>
